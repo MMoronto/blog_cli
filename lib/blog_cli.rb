@@ -2,8 +2,7 @@ require_relative '../config/environment'
 
 ActiveRecord::Migration.check_pending!
 
-module BlogCli
-  class Error < StandardError; end
+module BlogCLI
   # Your code goes here...
 end
 
