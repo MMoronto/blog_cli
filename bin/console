@@ -3,6 +3,8 @@
 require "bundler/setup"
 require "blog_cli"
 
+ActiveRecord::Base.logger = logger.new(STDOUT)
+
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
 
@@ -11,4 +13,6 @@ require "blog_cli"
 # Pry.start
 
 require "irb"
-IRB.start(__FILE__)
+module BLogCLI 
+  IRB.start(__FILE__)
+end
