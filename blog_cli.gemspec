@@ -5,7 +5,7 @@ require "blog_cli/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "blog_cli"
-  spec.version       = BlogCLI::VERSION
+  spec.version       = BlogCli::VERSION
   spec.authors       = ["'MOBOLA MORONTO'"]
   spec.email         = ["'t2wycemo@gmail.com'"]
 
